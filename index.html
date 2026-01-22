@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Live Poll</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+  <h1>Live Poll</h1>
+  <h2>Which technology will most impact healthcare?</h2>
+
+  <div class="options">
+    <button onclick="vote(0)">AI</button>
+    <button onclick="vote(1)">Robotics</button>
+    <button onclick="vote(2)">Telemedicine</button>
+    <button onclick="vote(3)">Genomics</button>
+  </div>
+
+  <h3>Results</h3>
+  <div id="results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
