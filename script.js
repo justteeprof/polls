@@ -1,4 +1,4 @@
-<script type="module">
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-app.js";
 import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-database.js";
 
@@ -40,4 +40,5 @@ function renderResults(votes) {
 
   document.getElementById("results").innerHTML = html;
 }
-</script>
+
+
